@@ -28,7 +28,7 @@ const Feedback = () => {
     e.preventDefault()
     e.stopPropagation()
 
-    const URL = "http://localhost:7000/api/feedback"
+    const URL = "https://vansh-renu-parmar-backend.onrender.com/api/feedback"
     try {
 
       const response = await axios.post(URL, data, {
