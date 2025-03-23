@@ -1,0 +1,69 @@
+
+body{
+    /* background-color: rgb(236, 233, 233); */
+    background-color: #E5E5E5;
+    padding: 0;
+    margin: 0;
+    font-family: "Agdasima", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+.body{
+    display: flex;
+    overflow-x: hidden;
+}
+.imgr
+{
+    width: 750px;
+    height: 630px;
+    right: -350px;
+    position: relative;
+  
+}
+.logo{
+    height: 120px;
+    width: 190px;
+}
+.vp
+{
+   font-family: "train one";
+  font-weight: 400;
+  font-style: normal;
+}
+.SKILL img{
+    height: 70px;
+    width: 70px;
+}
+.SKILL p {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+@media (max-width: 1280px) {
+    .imgr {
+      width: 690px;
+      height: 550px;
+
+    }}
+@media (max-width: 800px) {
+   .SKILL p {
+    font-weight: 100;
+    height: 50px;
+    width: 50px;
+   }
+    }
+
+@media (max-width:800px)
+{
+    .logo{
+        width: 90px;
+        height: 70px;
+    }
+}
