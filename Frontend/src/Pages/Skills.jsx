@@ -1,20 +1,20 @@
 import React from 'react'
-import b1 from '../public/Group 12.svg'
-import b2 from '../public/Group 13.svg'
-import b3 from '../public/Unofficial_JavaScript_logo_2.webp'
-import b4 from '../public/bootstrap-solid 1.png'
-import b5 from '../public/git.svg'
-import b6 from '../public/figma.svg'
-import b7 from '../public/Group 14.svg'
-import b8 from '../public/Tailwind_CSS_Logo.svg.png'
-import b9 from '../public/Vector (1).png'
-import b10 from '../public/a-removebg-preview.png'
-import b11 from '../public/next-js-logo-freelogovectors.net_.png'
-import b12 from '../public/images-removebg-preview.png'
-import b13 from '../public/image 17.svg'
-import b14 from '../public/java-removebg-preview (1).png'
-import b15 from '../public/images__1_-removebg-preview.png'
-import b16 from '../public/C++.svg'
+import b1 from '../assets/Group 12.svg'
+import b2 from '../assets/Group 13.svg'
+import b3 from '../assets/Unofficial_JavaScript_logo_2.webp'
+import b4 from '../assets/bootstrap-solid 1.png'
+import b5 from '../assets/git.svg'
+import b6 from '../assets/figma.svg'
+import b7 from '../assets/Group 14.svg'
+import b8 from '../assets/Tailwind_CSS_Logo.svg.png'
+import b9 from '../assets/Vector (1).png'
+import b10 from '../assets/a-removebg-preview.png'
+import b11 from '../assets/next-js-logo-freelogovectors.net_.png'
+import b12 from '../assets/images-removebg-preview.png'
+import b13 from '../assets/image 17.svg'
+import b14 from '../assets/java-removebg-preview (1).png'
+import b15 from '../assets/images__1_-removebg-preview.png'
+import b16 from '../assets/C++.svg'
 
 
 
@@ -58,7 +58,7 @@ const Skills = () => {
           <div className="md:h-[200px] h-[140px] md:w-[700px] w-[300px] flex flex-wrap justify-center items-center SKILL md:gap-x-[110px] gap-x-[20px] md:gap-y-[30px] gap-y-[15px]">
             <p><img src={b13} alt="C" />C</p>
             <p><img src={b14} alt="Java" />JAVA</p>
-            <p><img src={15} alt="DSA" />DSA</p>
+            <p><img src={b15} alt="DSA" />DSA</p>
             <p><img src={b16} alt="C++" />C++</p>
           </div>
         </div>

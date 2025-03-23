@@ -3,13 +3,13 @@ import { useState } from 'react';
 import Lottie from 'lottie-react';
 import animationData from '../assets/Animation - 1742544997332.json'
 import Ham from './Ham'
-import git from '../public/V1.png'
-import icon from '../public/V2.png'
-import linked from '../public/Vector.png'
-import bg from '../public/Rectangle 67.png'
-import a from '../public/bv-removebg-preview.png'
-// import a2 from '../public/V1.png'
-// import a3 from '../public/V2.png'
+import git from '../assets/V1.png'
+import icon from '../assets/V2.png'
+import linked from '../assets/Vector.png'
+import bg from '../assets/Rectangle 67.png'
+import a from '../assets/bv-removebg-preview.png'
+// import a2 from '../assets/V1.png'
+// import a3 from '../assets/V2.png'
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import seprator from '../public/separatorBlack 1.png'
+import seprator from '../assets/separatorBlack 1.png'
 
 
 const About = () => {
