@@ -8,12 +8,12 @@ dotenv.config();
 const app = express()
 
 app.use(cors({
-    origin: 'https://vansh-renu-parmar.onrender.com/',  // React frontend URL
-    methods: 'GET,POST,PUT,DELETE',
+    origin: 'https://vansh-renu-parmar.onrender.com',  // Frontend Render URL (No slash!)
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
-  //   credentials: true
-  }));
-  
+    // credentials: true   // Uncomment if you are using cookies / tokens
+}));
+
 //   remember to use the cors after const app = express()
 //   use the cors before the app.use(express.json()) and app.use('/api' , router)
 // 
