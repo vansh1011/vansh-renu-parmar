@@ -1,4 +1,6 @@
 import React from 'react'
+import seprator from '../public/separatorBlack 1.png'
+
 
 const About = () => {
   return (
@@ -18,7 +20,7 @@ const About = () => {
 </p>
 
 
-        <img className="absolute md:top-[260px] top-[290px] md:h-[12px] md:w-[170px] h-[7px] w-[100px]" src="../public/separatorBlack 1.png" alt="Separator" />
+        <img className="absolute md:top-[260px] top-[290px] md:h-[12px] md:w-[170px] h-[7px] w-[100px]" src={seprator} alt="Separator" />
 
         <div className="flex gap-8 absolute top-[330px]">
           <div className="md:h-[30px] md:w-[340px] h-[20px] w-[160px] md:text-[18px] text-[13px] md:mt-0 mt-5 flex flex-col justify-center items-center">
@@ -31,7 +33,7 @@ const About = () => {
           </div>
         </div>
 
-        <img className="absolute top-[430px] md:h-[12px] md:w-[170px] h-[7px] w-[100px]" src="../public/separatorBlack 1.png" alt="Separator" />
+        <img className="absolute top-[430px] md:h-[12px] md:w-[170px] h-[7px] w-[100px]" src={seprator} alt="Separator" />
       </div>
 
     </div>
